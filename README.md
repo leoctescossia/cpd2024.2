@@ -31,18 +31,10 @@ Este projeto contém implementações paralelas e distribuídas para análise de
 g++ -o main_pthreads main_pthreads.cpp -lpthread -ljson-c -lm
 ```
 
-```bash
-valgrind --leak-check=full --track-origins=yes ./main_pthreads
-```
-
 ### openMP
 
 ```bash
 g++ -o main_openmp main_openmp.cpp -fopenmp -ljson-c -lm
-```
-
-```bash
-valgrind --leak-check=full --track-origins=yes ./main_openmp
 ```
 
 ### openMPI
@@ -61,4 +53,4 @@ mpirun -np 4 ./main_openmpi
 
 # Agradecimentos
 
-Gostaria de expressar minha sincera gratidão ao grupo de **Yuri e Gabriel** pela a colaboração e ajuda nessa longa jornada.
+Gostaria de expressar minha sincera gratidão ao grupo de **Yuri e Gabriel** pela a colaboração e ajuda nessa longa jornada. Sem a colaboração deles, esse trabalho não seria concluído.
