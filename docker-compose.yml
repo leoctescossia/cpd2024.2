@@ -1,0 +1,32 @@
+version: '3.9'
+
+services:
+  graph_analysis:
+    build:
+      context: ./pthreads
+      dockerfile: Dockerfile
+    volumes:
+      - ./web-Google.txt:/app/web-Google.txt
+    working_dir: /app
+    command: ./graph_analysis
+
+  openmp_analysis:
+    build:
+      context: ./openmp
+      dockerfile: Dockerfile
+    volumes:
+      - ./web-Google.txt:/app/web-Google.txt
+    working_dir: /app
+    command: ./grafomp
+
+  openmpi_analysis:
+    build:
+      context: ./openmpi
+      dockerfile: Dockerfile
+    environment:
+      - OMPI_ALLOW_RUN_AS_ROOT=1
+      - OMPI_ALLOW_RUN_AS_ROOT_CONFIRM=1
+    volumes:
+      - ./web-Google.txt:/app/web-Google.txt
+    working_dir: /app
+    command: mpirun -np 4 ./main_openmpi

@@ -1,0 +1,40 @@
+======================
+Métricas de Uso do OPEN-MP
+======================
+Tempo de execução (wall-clock): 217.862 segundos
+Tempo de CPU ocupado: 30511 segundos
+Tempo de CPU ocioso: 35670 segundos
+Consumo de memória (inicial): 3968 KB
+Consumo de memória (final): 991492 KB
+======================
+Métricas de Uso do OPEN-MPI
+======================
+Tempo de execução (wall-clock): 215.698 segundos
+Tempo de CPU ocupado: 21593 segundos
+Tempo de CPU ocioso: 12465 segundos
+Consumo de memória (inicial): 4992 KB
+Consumo de memória (final): 336260 KB
+======================
+Métricas de Uso do OPEN-MPI
+======================
+Tempo de execução (wall-clock): 215.749 segundos
+Tempo de CPU ocupado: 21602 segundos
+Tempo de CPU ocioso: 12467 segundos
+Consumo de memória (inicial): 4992 KB
+Consumo de memória (final): 314076 KB
+======================
+Métricas de Uso do OPEN-MPI
+======================
+Tempo de execução (wall-clock): 215.777 segundos
+Tempo de CPU ocupado: 21609 segundos
+Tempo de CPU ocioso: 12468 segundos
+Consumo de memória (inicial): 4992 KB
+Consumo de memória (final): 320612 KB
+======================
+Métricas de Uso do OPEN-MPI
+======================
+Tempo de execução (wall-clock): 215.79 segundos
+Tempo de CPU ocupado: 21610 segundos
+Tempo de CPU ocioso: 12467 segundos
+Consumo de memória (inicial): 4992 KB
+Consumo de memória (final): 589444 KB
